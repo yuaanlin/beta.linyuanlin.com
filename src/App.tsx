@@ -33,7 +33,9 @@ function App() {
   const [isLoaded, setLoaded] = useState(false)
 
   useEffect(() => {
-    setLoaded(true);
+    setTimeout(() => {
+      setLoaded(true);
+    }, 500);
   }, [])
 
   const animation = (row: number) => row % 2 === 0 ? 'translate-x-[1920px]' : 'translate-x-[-1920px]'
