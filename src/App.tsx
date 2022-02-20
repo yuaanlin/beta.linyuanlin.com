@@ -1,4 +1,4 @@
-import iPhoneFrame from './assets/iphoneFrame.png';
+import iPhoneFrame from './assets/iphone.png';
 import { useEffect, useState } from "react";
 
 const iphoneImages = [
